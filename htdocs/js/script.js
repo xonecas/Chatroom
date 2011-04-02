@@ -17,7 +17,7 @@ function getColor () {
    return "#"+values.join("");
 }
 
-var socket = new io.Socket('localhost'); 
+var socket = new io.Socket('xonecas.com'); 
 socket.connect();
 //socket.on('connect', function() {});
 socket.on('message', function(message) {
